@@ -1,0 +1,50 @@
+{
+  "name": "xcon-test-widget",
+  "version": "1.0.0",
+  "description": "XCons Widget - TypeScript Development Kit",
+  "main": "dist/widget.js",
+  "scripts": {
+    "dev": "vite --config vite.config.dev.js",
+    "serve": "vite --config vite.config.dev.js --mode development --host",
+    "build:dev": "vite build --mode development --config vite.config.dev.js",
+    "build:prod": "vite build --mode production --config vite.config.js",
+    "build": "vite build --config vite.config.js",
+    "preview": "vite preview --config vite.config.dev.js --port 4201",
+    "clean": "rimraf dist",
+    "start": "npm run dev",
+    "start:full": "concurrently \"npm run build:dev -- --watch\" \"npm run preview\"",
+    "health": "curl -s http://localhost:4201/health | json_pp || echo 'Server not running'"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.0",
+    "@types/node": "^20.0.0",
+    "@xcons/cli": "^1.0.41",
+    "@xcons/vite-plugin": "^1.1.89",
+    "@xcons/core": "^2.0.1",
+    "@xcons/widget": "^1.2.10",
+    "@xcons/common": "^2.0.4",
+    "concurrently": "^8.2.0",
+    "magic-string": "^0.30.18",
+    "rimraf": "^5.0.0",
+    "terser": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "xcon",
+    "xcon-studio",
+    "widget",
+    "typescript",
+    "xcon-development-kit"
+  ],
+  "author": "XCon Studio Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xcon-studio/xcon-widget-core.git"
+  },
+  "homepage": "https://github.com/xcon-studio/xcon-widget-core#readme",
+  "bugs": {
+    "url": "https://github.com/xcon-studio/xcon-widget-core/issues"
+  }
+}

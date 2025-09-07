@@ -1,0 +1,19 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
+  // XCon Widget development extensions
+  "recommendations": [
+    "ms-vscode.vscode-typescript-next",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-json",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.js-debug",
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree"
+  ],
+  "unwantedRecommendations": [
+    "angular.ng-template",
+    "ms-vscode.vscode-angular-pack",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

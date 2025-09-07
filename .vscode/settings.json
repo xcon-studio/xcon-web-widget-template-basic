@@ -1,0 +1,98 @@
+{
+  "debug.javascript.usePreview": false,
+  "debug.javascript.breakOnConditionalError": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.javascript.automaticallyTunnelRemoteServer": false,
+
+  // ENHANCED: Source map debugging
+  "debug.javascript.unmapMissingSources": true,
+  "debug.javascript.suggestPrettyPrinting": false,
+  "debug.javascript.terminalOptions": {
+    "skipFiles": [
+      "<node_internals>/**",
+      "**/node_modules/**"
+    ]
+  },
+
+  // TypeScript configuration for better debugging
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.useLabelDetailsInCompletionEntries": true,
+  "typescript.inlayHints.includeInlayParameterNameHints": "all",
+  "typescript.inlayHints.includeInlayFunctionParameterTypeHints": true,
+  "typescript.inlayHints.includeInlayVariableTypeHints": true,
+
+  // File associations for XCon widget development
+  "files.associations": {
+    "*.tbhtml": "html"
+  },
+
+  // Emmet support for tbhtml files
+  "emmet.includeLanguages": {
+    "tbhtml": "html"
+  },
+
+  // HTML/CSS validation
+  "html.suggest.html5": true,
+  "css.validate": true,
+  "scss.validate": true,
+
+  // Auto-save for better debugging experience
+  "files.autoSave": "onWindowChange",
+  "editor.formatOnSave": true,
+
+  // Enhanced code actions
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // Search and file watching optimization
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.vscode": true,
+    "**/.git": true
+  },
+
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.git/**": true
+  },
+
+  // Terminal environment for XCon development
+  "terminal.integrated.env.windows": {
+    "NODE_ENV": "development",
+    "DEBUG": "xcon:*"
+  },
+  "terminal.integrated.env.linux": {
+    "NODE_ENV": "development",
+    "DEBUG": "xcon:*"
+  },
+  "terminal.integrated.env.osx": {
+    "NODE_ENV": "development",
+    "DEBUG": "xcon:*"
+  },
+
+  // Enhanced editor settings for debugging
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "always",
+  "workbench.editor.enablePreview": false,
+
+  // Problem matcher improvements
+  "problems.autoReveal": true,
+  "problems.defaultViewMode": "table",
+
+  // Git settings
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  // XCon Widget development settings
+  "xcon.widget.autoRefresh": true,
+  "xcon.widget.showDebugInfo": true,
+
+  // Browser debugging settings
+  "debug.chrome.useV3": true,
+  "debug.node.useV3": true
+}

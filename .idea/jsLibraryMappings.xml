@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <!-- XCon Widget Library Mappings -->
+    <component name="JavaScriptLibraryMappings">
+        <file url="file://$PROJECT_DIR$" libraries="{@xcons/widget}" />
+        <file url="PROJECT" libraries="{@types/jquery, @types/node}" />
+        <includedPredefinedLibrary name="Node.js Core" />
+    </component>
+</project>

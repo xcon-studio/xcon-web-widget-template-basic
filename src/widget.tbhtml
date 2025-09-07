@@ -1,0 +1,63 @@
+<widget widget-title="Advanced ThingsBoard Widget">
+    <resources>
+        <!-- CSS Kütüphaneleri -->
+        <resource name="bootstrap-css" type="css" extension="true"
+                  url="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"></resource>
+        <resource name="fontawesome" type="css" extension="true"
+                  url="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></resource>
+    </resources>
+
+    <content>
+        <div class="example-container">
+            <!-- Text Binding Example -->
+            <div class="section">
+                <h3>Text Binding</h3>
+                <p>Current Date: <strong>${currentDate}</strong></p>
+                <button @click="${updateDate}">Update Date</button>
+            </div>
+
+            <!-- Attribute Binding Example -->
+            <div class="section">
+                <h3>Attribute Binding (Input)</h3>
+                <label>
+                    <input type="text"
+                           value="Test Input"
+                           [disabled]="isDisabled"
+                           [readonly]="isReadonly" />
+                </label>
+
+                <div class="controls">
+                    <label>
+                        <input type="checkbox" @click="${toggleDisabled}"> Disabled
+                    </label>
+                    <label>
+                        <input type="checkbox" @click="${toggleReadonly}"> Readonly
+                    </label>
+                </div>
+            </div>
+
+            <!-- Class Binding Example -->
+            <div class="section">
+                <h3>Class Binding (Div)</h3>
+                <div class="status-box"
+                     [class.active]="isActive"
+                     [class.error]="hasError"
+                     [class.loading]="isLoading">
+                    Status Box Content
+                </div>
+
+                <div class="controls">
+                    <label>
+                        <input type="checkbox" @click="${toggleActive}"> Active
+                    </label>
+                    <label>
+                        <input type="checkbox" @click="${toggleError}"> Error
+                    </label>
+                    <label>
+                        <input type="checkbox" @click="${toggleLoading}"> Loading
+                    </label>
+                </div>
+            </div>
+        </div>
+    </content>
+</widget>
