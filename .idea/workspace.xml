@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25bad0a7-d14f-4aab-99c8-4a1eac20e43a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalToolsManager">
+    <tool name="XCon Widget Build" description="Build XCon Widget for Production" program="npm" parameters="run build" workingDirectory="$ProjectFileDir$" />
+    <tool name="XCon Widget Clean" description="Clean Widget Build Files" program="npm" parameters="run clean" workingDirectory="$ProjectFileDir$" />
+  </component>
+  <component name="FileColorsManager">
+    <file url="file://$PROJECT_DIR$/src" color="Green" />
+    <file url="file://$PROJECT_DIR$/dist" color="Yellow" />
+    <file url="file://$PROJECT_DIR$/templates" color="Blue" />
+    <file url="file://$PROJECT_DIR$/.xcon" color="Violet" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="32LnazCpY8xFWXccCVHWwCplgJI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xcon-widget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcon-widget" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcon-widget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcon-widget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/xcon/xcon-web-widget-template-basic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\xcon\\xcon-web-widget-template-basic\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\xcon\xcon-web-widget-template-basic" />
+      <recent name="D:\Projects\xcon\xcon-web-widget-template-basic\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.XCon Widget Dev Server">
+    <configuration name="XCon Widget Build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="XCon Widget Dev Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
+        <browser start="true" with-js-debugger="true" url="http://localhost:4201/" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="XCon Widget Preview" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25bad0a7-d14f-4aab-99c8-4a1eac20e43a" name="Changes" comment="" />
+      <created>1757208787265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757208787265</updated>
+      <workItem from="1757208788229" duration="800000" />
+      <workItem from="1758774972974" duration="459000" />
+      <workItem from="1758775543224" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowLayout">
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="TypeScript" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.3" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules" />
+      </list>
+    </option>
+  </component>
+</project>

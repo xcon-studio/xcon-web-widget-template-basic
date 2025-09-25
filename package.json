@@ -5,15 +5,7 @@
   "main": "dist/widget.js",
   "scripts": {
     "dev": "vite --config vite.config.dev.js",
-    "serve": "vite --config vite.config.dev.js --mode development --host",
-    "build:dev": "vite build --mode development --config vite.config.dev.js",
-    "build:prod": "vite build --mode production --config vite.config.js",
-    "build": "vite build --config vite.config.js",
-    "preview": "vite preview --config vite.config.dev.js --port 4201",
-    "clean": "rimraf dist",
-    "start": "npm run dev",
-    "start:full": "concurrently \"npm run build:dev -- --watch\" \"npm run preview\"",
-    "health": "curl -s http://localhost:4201/health | json_pp || echo 'Server not running'"
+    "start": "npm run dev"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.0",

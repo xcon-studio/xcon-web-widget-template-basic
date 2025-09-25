@@ -79,7 +79,6 @@ module.exports = defineConfig({
         // XCon Development Enhancement Plugin
         {
             name: 'xcon-dev-enhancements',
-
             configureServer(server) {
                 // XCon development server middleware
                 server.middlewares.use((req, res, next) => {
