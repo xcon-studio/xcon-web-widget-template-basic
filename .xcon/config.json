@@ -1,5 +1,22 @@
 {
   "configurations": {
+    "provider": ""
+  },
+  "build": {
+    "debug": true,
+    "entry": "widget.ts",
+    "sourceRoot": "src",
+    "outputFilename": "widget.js",
+    "outputPath": "dist",
+    "tsConfig": "tsconfig.app.json",
+    "externals": {
+      "@xcons/common": "XConsCommon",
+      "@xcons/core": "XConsCore",
+      "@xcons/widget": "XConWidgetCore"
+    }
+  },
+  "data": {
+
   },
   "projectType": "widget",
   "version": "1.0"
