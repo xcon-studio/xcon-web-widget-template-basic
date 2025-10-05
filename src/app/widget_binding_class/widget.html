@@ -1,0 +1,67 @@
+<div class="example-container">
+    <div class="section">
+        <h3>BINDING CLASS</h3>
+        <div class="status-box"
+             x:class:active="isActive"
+             x:class:error="hasError"
+             x:class:loading="isLoading">
+            Status Box Content
+        </div>
+
+        <div class="controls">
+            <label>
+                <input type="checkbox" x:on:click="toggleActive"> Active
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="toggleError"> Error
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="toggleLoading"> Loading
+            </label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>BINDING CLASS MODEL</h3>
+        <div class="status-box"
+             x:class:active="model.isActive"
+             x:class:error="model.hasError"
+             x:class:loading="model.isLoading">
+            Status Box Content
+        </div>
+
+        <div class="controls">
+            <label>
+                <input type="checkbox" x:on:click="model.toggleActive"> Active
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="model.toggleError"> Error
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="model.toggleLoading"> Loading
+            </label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>BINDING CLASS SERVICE</h3>
+        <div class="status-box"
+             x:class:active="serviceModel.isActive"
+             x:class:error="serviceModel.hasError"
+             x:class:loading="serviceModel.isLoading">
+            Status Box Content
+        </div>
+
+        <div class="controls">
+            <label>
+                <input type="checkbox" x:on:click="serviceModel.toggleActive"> Active
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="serviceModel.toggleError"> Error
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="serviceModel.toggleLoading"> Loading
+            </label>
+        </div>
+    </div>
+</div>

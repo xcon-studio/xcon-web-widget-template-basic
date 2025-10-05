@@ -1,0 +1,17 @@
+<div class="example-container">
+    <div class="section">
+        <h3>BINDING IF</h3>
+        <div x:if="isVisible">Bu content sadece isVisible true olduğunda görünür</div>
+        <button x:on:click="toggleVisible">Change Visible</button>
+    </div>
+    <div class="section">
+        <h3>BINDING IF MODEL</h3>
+        <div x:if="model.isVisible">Bu content sadece isVisible true olduğunda görünür</div>
+        <button x:on:click="model.toggleVisible">Change Visible</button>
+    </div>
+    <div class="section">
+        <h3>BINDING IF servıce</h3>
+        <div x:if="serviceModel.isVisible">Bu content sadece isVisible true olduğunda görünür</div>
+        <button x:on:click="serviceModel.toggleVisible">Change Visible</button>
+    </div>
+</div>

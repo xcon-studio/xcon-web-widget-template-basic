@@ -10,9 +10,9 @@ module.exports = defineConfig({
     server: {
         port: 4201,
         host: 'localhost',
-        open: false, // VS Code will handle browser opening
+        open: false,
         cors: true,
-
+        strictPort: true,
         // XCon development server headers
         headers: {
             'X-XCon-Dev-Server': 'XCon Widget Development Kit',
@@ -80,21 +80,9 @@ module.exports = defineConfig({
         {
             name: 'xcon-dev-enhancements',
             configureServer(server) {
-                // XCon development server middleware
-                server.middlewares.use((req, res, next) => {
-                    // Log XCon widget requests
-                    if (req.url?.includes('src/widget')) {
-                        console.log(`🎯 [XCon] Widget request: ${req.url}`)
-                    }
-                    next()
-                })
-
                 // Custom startup message
                 server.printUrls = () => {
                     console.log('\n🚀 XCon Widget Development Server:')
-                    console.log(`   Local:   http://localhost:4201/`)
-                    console.log(`   Debug:   VS Code F5 → "🎯 XCon Widget Debug"`)
-                    console.log(`   Docs:    XCon Widget Development Kit\n`)
                 }
             },
 

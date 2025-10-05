@@ -1,0 +1,30 @@
+<div class="example-container">
+    <div class="section">
+        <h3>BINDING COMPUTE</h3>
+        <p>Num 1: <strong x:text="num1"></strong></p>
+        <p>Num 2: <strong x:text="num2"></strong></p>
+        <p>Num 3: <strong x:text="num3"></strong></p>
+        <button x:on:click="updateNumber1">Update Number 1</button>
+        <button x:on:click="updateNumber2">Update Number 2</button>
+        <button x:on:click="updateNumber0">Reset</button>
+    </div>
+    <div class="section">
+        <h3>BINDING COMPUTE MODEL</h3>
+        <p>Num 1: <strong x:text="model.modelNum1"></strong></p>
+        <p>Num 2: <strong x:text="model.modelNum2"></strong></p>
+        <p>Num 3: <strong x:text="model.modelNum3"></strong></p>
+        <button x:on:click="model.updateNumber1">Update Number 1</button>
+        <button x:on:click="model.updateNumber2">Update Number 2</button>
+        <button x:on:click="model.updateNumber0">Reset</button>
+    </div>
+    <div class="section">
+        <h3>BINDING COMPUTE SERVICE</h3>
+        <p>Num 1: <strong x:text="serviceModel.modelNum1"></strong></p>
+        <p>Num 2: <strong x:text="serviceModel.modelNum2"></strong></p>
+        <p>Num 3: <strong x:text="serviceModel.modelNum3"></strong></p>
+        <button x:on:click="serviceModel.updateNumber1">Update Number 1</button>
+        <button x:on:click="serviceModel.updateNumber2">Update Number 2</button>
+        <button x:on:click="serviceModel.updateNumber0">Reset</button>
+    </div>
+
+</div>

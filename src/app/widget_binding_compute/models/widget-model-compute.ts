@@ -1,10 +1,10 @@
-import {computed,property} from "@xcons/widget";
+import {xproperty, xcomputed} from "@xcons/widget";
 
-export class WidgetTestComputedModel {
-    @property() modelNum1 = 1;
-    @property() modelNum2 = 1;
+export class WidgetComputeModel {
+    @xproperty() modelNum1 = 1;
+    @xproperty() modelNum2 = 1;
 
-    @computed()
+    @xcomputed()
     get modelNum3() {
         console.log('Computing modelNum:', this.modelNum1, '+', this.modelNum2);
         const result = this.modelNum1 + this.modelNum2;

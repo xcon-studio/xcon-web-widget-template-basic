@@ -2,7 +2,6 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <!-- XCon Widget Project Structure -->
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
@@ -16,8 +15,6 @@
     <orderEntry type="library" name="@types/jquery" level="project" />
     <orderEntry type="library" name="@types/node" level="project" />
   </component>
-
-  <!-- TypeScript Compiler Configuration -->
   <component name="TypeScriptCompilerSettings">
     <option name="recompileOnChanges" value="true" />
     <option name="useConfig" value="true" />

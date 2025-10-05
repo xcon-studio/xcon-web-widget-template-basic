@@ -10,14 +10,15 @@
   "devDependencies": {
     "@types/jquery": "^3.5.0",
     "@types/node": "^20.0.0",
-    "@xcons/common": "^2.0.11",
+    "@xcons/common": "^2.0.16",
     "@xcons/core": "^2.0.1",
     "@xcons/vite-plugin": "^1.1.94",
-    "@xcons/widget": "^1.3.15",
+    "@xcons/widget": "^1.4.65",
     "typescript": "~5.5.2",
     "vite": "^7.1.5"
   },
   "keywords": [
+    "xcons",
     "xcon",
     "xcon-studio",
     "widget",

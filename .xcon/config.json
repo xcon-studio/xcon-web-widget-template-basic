@@ -1,10 +1,10 @@
 {
   "configurations": {
-    "provider": ""
+    "provider": "web"
   },
   "build": {
     "debug": true,
-    "entry": "widget.ts",
+    "entry": "app.bootstrap.ts",
     "sourceRoot": "src",
     "outputFilename": "widget.js",
     "outputPath": "dist",

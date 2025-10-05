@@ -1,0 +1,24 @@
+<div class="example-container">
+    <div class="section">
+        <h3>BINDING CLICK</h3>
+        <!-- Parametresiz -->
+        <button x:on:click="test()">test</button>
+
+        <!-- String parametre -->
+        <button x:on:click="testHello('hello')">testHello</button>
+
+        <!-- Multiple parametreler -->
+        <button x:on:click="testParam('user', 123, true)">testParam</button>
+
+        <br> <br>
+
+        <!-- Widget property kullanımı -->
+        <button x:on:click="testProperty(userId)">testProperty</button>
+
+        <!-- Special variables -->
+        <button x:on:click="handleClick($event, $target)">handleClick</button>
+
+        <!-- Nested properties -->
+        <button x:on:click="updateModel(model.id, model.name)">updateModel</button>
+    </div>
+</div>

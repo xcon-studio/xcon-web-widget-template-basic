@@ -115,3 +115,61 @@ button {
 button:hover {
     background-color: #1976D2;
 }
+.list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.basic-list, .indexed-list, .filtered-list {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.basic-list li, .indexed-list li, .filtered-list li {
+    padding: 8px;
+    margin: 4px 0;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+
+.object-list {
+    margin: 20px 0;
+}
+
+.user-card {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-card h4 {
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+.user-card p {
+    margin: 4px 0;
+    color: #666;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #0056b3;
+}

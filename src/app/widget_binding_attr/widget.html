@@ -1,0 +1,57 @@
+<div class="example-container">
+    <div class="section">
+        <h3>BINDING ATTR</h3>
+        <label>
+            <input type="text"
+                   value="Test Input"
+                   x:attr:disabled="isDisabled"
+                   x:attr:readonly="isReadonly"/>
+        </label>
+
+        <div class="controls">
+            <label>
+                <input type="checkbox" x:on:click="toggleDisabled"> Disabled
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="toggleReadonly"> Readonly
+            </label>
+        </div>
+    </div>
+    <div class="section">
+        <h3>BINDING ATTR MODEL</h3>
+        <label>
+            <input type="text"
+                   value="Test Input"
+                   x:attr:disabled="model.modelIsDisabled"
+                   x:attr:readonly="model.modelIsReadonly"/>
+        </label>
+
+        <div class="controls">
+            <label>
+                <input type="checkbox" x:on:click="model.modelDisabled"> Disabled
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="model.modelReadonly"> Readonly
+            </label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>BINDING ATTR SERVICE</h3>
+        <label>
+            <input type="text"
+                   value="Test Input"
+                   x:attr:disabled="serviceModel.isDisabled"
+                   x:attr:readonly="serviceModel.isReadonly"/>
+        </label>
+
+        <div class="controls">
+            <label>
+                <input type="checkbox" x:on:click="serviceModel.toggleDisabled"> Disabled
+            </label>
+            <label>
+                <input type="checkbox" x:on:click="serviceModel.toggleReadonly"> Readonly
+            </label>
+        </div>
+    </div>
+</div>

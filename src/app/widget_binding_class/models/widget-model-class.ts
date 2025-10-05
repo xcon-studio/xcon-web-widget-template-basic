@@ -1,10 +1,9 @@
-import {property} from "@xcons/widget";
+import {xproperty} from "@xcons/widget";
 
-export class WidgetTestClassModel {
-    // Class binding properties
-    @property() isActive = false;
-    @property() hasError = false;
-    @property() isLoading = false;
+export class WidgetClassModel {
+    @xproperty() isActive = false;
+    @xproperty() hasError = false;
+    @xproperty() isLoading = false;
 
     // Class binding toggles
     toggleActive() {
