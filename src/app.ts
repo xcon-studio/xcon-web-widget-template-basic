@@ -15,6 +15,7 @@ import {ComponentLogLevel, LoggerLogLevel} from "@xcons/common";
     // template: '<xcon-binding-for></xcon-binding-for>',
     // template: '<xcon-binding-model></xcon-binding-model>',
     // template: '<xcon-binding-compute></xcon-binding-compute>',
+    // templateUrl: './app_widget_without_template.html',
     initMode: "auto",
     encapsulation: 'component',
     logger: {

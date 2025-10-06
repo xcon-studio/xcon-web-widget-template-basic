@@ -16,6 +16,8 @@ import TestBindingClick from "./app/widget_binding_click/widget";
 import TestBindingSwicth from "./app/widget_binding_switch/widget";
 import {WidgetModelService} from "./app/widget_binding_model/models/widget-service-model";
 import TestBindingModel from "./app/widget_binding_model/widget";
+import TestBindingWithoutTemplateText from "./app/widget_without_template/widget";
+import {WidgetWithoutTemplateTextService} from "./app/widget_without_template/models/widget-service-text";
 
 XConBootstrap.run({
     rootWidget: App,
@@ -55,6 +57,10 @@ XConBootstrap.run({
         {
             widget: TestBindingModel,
             initMode: 'auto'
+        },
+        {
+            widget: TestBindingWithoutTemplateText,
+            initMode: 'auto'
         }
     ],
     services: [
@@ -64,7 +70,8 @@ XConBootstrap.run({
         {service: WidgetIFService},
         {service: WidgetComputeService},
         {service: WidgetClickService},
-        {service: WidgetModelService}
+        {service: WidgetModelService},
+        {service: WidgetWithoutTemplateTextService}
     ],
     providers: [
         {

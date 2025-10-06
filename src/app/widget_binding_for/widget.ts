@@ -27,9 +27,9 @@ export default class TestBindingFor implements OnWidgetPropertyChanged {
     }
 
     @xproperty() items: string[] = ['Apple', 'Banana', 'Orange'];
-    @xproperty() users: Array<{ name: string, email: string, age: number }> = [
-        {name: 'John Doe', email: 'john@example.com', age: 30},
-        {name: 'Jane Smith', email: 'jane@example.com', age: 25}
+    @xproperty() users: Array<{ name: string, email: string, age: number, status: string }> = [
+        {name: 'John Doe', email: 'john@example.com', age: 30, status: 'active'},
+        {name: 'Jane Smith', email: 'jane@example.com', age: 25, status: 'inactive'}
     ];
 
     addItem(): void {
@@ -55,15 +55,18 @@ export default class TestBindingFor implements OnWidgetPropertyChanged {
     addUser(): void {
         const names = ['Alice Johnson', 'Bob Wilson', 'Carol Brown', 'David Lee'];
         const domains = ['example.com', 'test.com', 'demo.com'];
+        const status = ['active', 'inactive'];
         const randomName = names[Math.floor(Math.random() * names.length)];
         const randomDomain = domains[Math.floor(Math.random() * domains.length)];
+        const randomStatus = status[Math.floor(Math.random() * status.length)];
         const email = randomName.toLowerCase().replace(' ', '.') + '@' + randomDomain;
         const age = Math.floor(Math.random() * 40) + 20;
 
         const newUser = {
             name: randomName,
             email: email,
-            age: age
+            age: age,
+            status: randomStatus,
         };
 
         this.users = [...this.users, newUser];
