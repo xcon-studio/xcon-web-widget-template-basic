@@ -1,12 +1,19 @@
 .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
     text-align: center;
     animation: fadeIn 1s ease-in;
 }
 
 .logo {
-    margin-bottom: 10px;
-    width: 800px;
-    max-width: 90vw;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 10px;
 }
 
 .slogan {

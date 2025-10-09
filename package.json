@@ -10,10 +10,10 @@
   "devDependencies": {
     "@types/jquery": "^3.5.0",
     "@types/node": "^20.0.0",
-    "@xcons/common": "^2.0.17",
+    "@xcons/common": "^2.0.20",
     "@xcons/core": "^2.0.3",
     "@xcons/vite-plugin": "^1.2.12",
-    "@xcons/widget": "^1.4.71",
+    "@xcons/widget": "^1.4.77",
     "typescript": "~5.5.2",
     "vite": "^7.1.5"
   },
