@@ -5,15 +5,20 @@
   "main": "dist/widget.js",
   "scripts": {
     "dev": "vite --config vite.config.dev.js",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "build": "xcons web build",
+    "build:prod": "xcons web build --production",
+    "pack": "xcons web pack",
+    "pack:prod": "xcons web pack --production"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.0",
     "@types/node": "^20.0.0",
-    "@xcons/common": "^2.0.20",
-    "@xcons/core": "^2.0.3",
-    "@xcons/vite-plugin": "^1.2.12",
-    "@xcons/widget": "^1.4.77",
+    "@xcons/cli": "^1.2.22",
+    "@xcons/vite-plugin": "^1.2.22",
+    "@xcons/common": "^2.0.22",
+    "@xcons/core": "^2.0.4",
+    "@xcons/widget": "^1.5.64",
     "typescript": "~5.5.2",
     "vite": "^7.1.5"
   },
