@@ -7,7 +7,7 @@ import {ComponentLogLevel, LoggerLogLevel} from "@xcons/common";
     widgetVersion: '1.0.0',
     selector: 'app-root',
     templateUrl: './app.html',
-    styleUrls: ['./app.css'],
+    styleUrls: ['./app.scss'],
     initMode: "auto",
     encapsulation: 'component',
     logger: {

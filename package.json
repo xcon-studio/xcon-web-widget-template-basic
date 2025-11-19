@@ -1,43 +1,51 @@
 {
-  "name": "xcon-test-widget",
-  "version": "1.0.0",
-  "description": "XCons Widget - TypeScript Development Kit",
-  "main": "dist/widget.js",
-  "scripts": {
-    "dev": "vite --config vite.config.dev.js",
-    "start": "npm run dev",
-    "build": "xcons web build",
-    "build:prod": "xcons web build --production",
-    "pack": "xcons web pack",
-    "pack:prod": "xcons web pack --production"
-  },
-  "devDependencies": {
-    "@types/jquery": "^3.5.0",
-    "@types/node": "^20.0.0",
-    "@xcons/cli": "^1.2.22",
-    "@xcons/vite-plugin": "^1.2.22",
-    "@xcons/common": "^2.0.22",
-    "@xcons/core": "^2.0.4",
-    "@xcons/widget": "^1.5.64",
-    "typescript": "~5.5.2",
-    "vite": "^7.1.5"
-  },
-  "keywords": [
-    "xcons",
-    "xcon",
-    "xcon-studio",
-    "widget",
-    "typescript",
-    "xcon-development-kit"
-  ],
-  "author": "XCon Studio Team",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xcon-studio/xcon-web-widget-template-basic.git"
-  },
-  "homepage": "https://github.com/xcon-studio/xcon-web-widget-template-basic#readme",
-  "bugs": {
-    "url": "https://github.com/xcon-studio/xcon-web-widget-template-basic/issues"
-  }
+    "name":  "xcon-test-widget",
+    "version":  "1.0.0",
+    "description":  "XCons Widget - TypeScript Development Kit",
+    "main":  "dist/widget.js",
+    "scripts":  {
+                    "dev":  "vite --config vite.config.dev.js",
+                    "start":  "npm run dev",
+                    "build":  "xcons web build",
+                    "build:prod":  "xcons web build --production",
+                    "pack":  "xcons web pack",
+                    "pack:prod":  "xcons web pack --production"
+                },
+    "peerDependencies":  {
+                             "@xcons/theme-default":  "^3.0.29"
+                         },
+    "devDependencies":  {
+                            "@types/jquery":  "^3.5.0",
+                            "@types/node":  "^20.0.0",
+                            "@xcons/cli":  "^3.0.8",
+                            "@xcons/vite-plugin":  "^3.0.1",
+                            "@xcons/common":  "^3.0.1",
+                            "@xcons/core":  "^3.0.2",
+                            "@xcons/widget":  "^3.0.9",
+                            "@xcons/theme-default":  "^3.0.29",
+                            "typescript":  "~5.5.2",
+                            "vite":  "^7.1.11"
+                        },
+    "keywords":  [
+                     "xcons",
+                     "xcon",
+                     "xcon-studio",
+                     "widget",
+                     "typescript",
+                     "xcon-development-kit"
+                 ],
+    "author":  "XCon Studio Team",
+    "license":  "MIT",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/xcon-studio/xcon-web-widget-template-basic.git"
+                   },
+    "homepage":  "https://github.com/xcon-studio/xcon-web-widget-template-basic#readme",
+    "bugs":  {
+                 "url":  "https://github.com/xcon-studio/xcon-web-widget-template-basic/issues"
+             },
+    "engines":  {
+                    "node":  ">=18.0.0",
+                    "npm":  ">=9.0.0"
+                }
 }
